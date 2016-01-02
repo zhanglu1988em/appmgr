@@ -11,8 +11,12 @@
 		A65BC6A11C37EB8F00D18034 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A65BC6A01C37EB8F00D18034 /* AppDelegate.m */; };
 		A65BC6A41C37EB8F00D18034 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A65BC6A31C37EB8F00D18034 /* ViewController.m */; };
 		A65BC6A71C37EB8F00D18034 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A65BC6A51C37EB8F00D18034 /* Main.storyboard */; };
-		A65BC6A91C37EB8F00D18034 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A65BC6A81C37EB8F00D18034 /* Assets.xcassets */; };
 		A65BC6AC1C37EB8F00D18034 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A65BC6AA1C37EB8F00D18034 /* LaunchScreen.storyboard */; };
+		A65BC6B41C37EC0600D18034 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A65BC6B31C37EC0600D18034 /* Assets.xcassets */; };
+		A65BC6B61C37EC2D00D18034 /* app.plist in Resources */ = {isa = PBXBuildFile; fileRef = A65BC6B51C37EC2D00D18034 /* app.plist */; };
+		A65BC6B91C37ECD500D18034 /* AppView.m in Sources */ = {isa = PBXBuildFile; fileRef = A65BC6B81C37ECD500D18034 /* AppView.m */; };
+		A65BC6BB1C37ECFC00D18034 /* AppView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A65BC6BA1C37ECFC00D18034 /* AppView.xib */; };
+		A65BC6BE1C37EFB700D18034 /* AppMode.m in Sources */ = {isa = PBXBuildFile; fileRef = A65BC6BD1C37EFB700D18034 /* AppMode.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,9 +27,15 @@
 		A65BC6A21C37EB8F00D18034 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		A65BC6A31C37EB8F00D18034 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A65BC6A61C37EB8F00D18034 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A65BC6A81C37EB8F00D18034 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A65BC6AB1C37EB8F00D18034 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A65BC6AD1C37EB8F00D18034 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A65BC6B31C37EC0600D18034 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A65BC6B51C37EC2D00D18034 /* app.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = app.plist; sourceTree = "<group>"; };
+		A65BC6B71C37ECD500D18034 /* AppView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppView.h; sourceTree = "<group>"; };
+		A65BC6B81C37ECD500D18034 /* AppView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppView.m; sourceTree = "<group>"; };
+		A65BC6BA1C37ECFC00D18034 /* AppView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AppView.xib; sourceTree = "<group>"; };
+		A65BC6BC1C37EFB600D18034 /* AppMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppMode.h; sourceTree = "<group>"; };
+		A65BC6BD1C37EFB700D18034 /* AppMode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppMode.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,10 +72,10 @@
 				A65BC6A01C37EB8F00D18034 /* AppDelegate.m */,
 				A65BC6A21C37EB8F00D18034 /* ViewController.h */,
 				A65BC6A31C37EB8F00D18034 /* ViewController.m */,
-				A65BC6A51C37EB8F00D18034 /* Main.storyboard */,
-				A65BC6A81C37EB8F00D18034 /* Assets.xcassets */,
-				A65BC6AA1C37EB8F00D18034 /* LaunchScreen.storyboard */,
-				A65BC6AD1C37EB8F00D18034 /* Info.plist */,
+				A65BC6B71C37ECD500D18034 /* AppView.h */,
+				A65BC6B81C37ECD500D18034 /* AppView.m */,
+				A65BC6BC1C37EFB600D18034 /* AppMode.h */,
+				A65BC6BD1C37EFB700D18034 /* AppMode.m */,
 				A65BC69C1C37EB8F00D18034 /* Supporting Files */,
 			);
 			path = "03-appmgr";
@@ -74,7 +84,13 @@
 		A65BC69C1C37EB8F00D18034 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A65BC6A51C37EB8F00D18034 /* Main.storyboard */,
+				A65BC6BA1C37ECFC00D18034 /* AppView.xib */,
+				A65BC6AA1C37EB8F00D18034 /* LaunchScreen.storyboard */,
+				A65BC6AD1C37EB8F00D18034 /* Info.plist */,
+				A65BC6B51C37EC2D00D18034 /* app.plist */,
 				A65BC69D1C37EB8F00D18034 /* main.m */,
+				A65BC6B31C37EC0600D18034 /* Assets.xcassets */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -136,8 +152,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A65BC6B61C37EC2D00D18034 /* app.plist in Resources */,
 				A65BC6AC1C37EB8F00D18034 /* LaunchScreen.storyboard in Resources */,
-				A65BC6A91C37EB8F00D18034 /* Assets.xcassets in Resources */,
+				A65BC6B41C37EC0600D18034 /* Assets.xcassets in Resources */,
+				A65BC6BB1C37ECFC00D18034 /* AppView.xib in Resources */,
 				A65BC6A71C37EB8F00D18034 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -149,6 +167,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A65BC6BE1C37EFB700D18034 /* AppMode.m in Sources */,
+				A65BC6B91C37ECD500D18034 /* AppView.m in Sources */,
 				A65BC6A41C37EB8F00D18034 /* ViewController.m in Sources */,
 				A65BC6A11C37EB8F00D18034 /* AppDelegate.m in Sources */,
 				A65BC69E1C37EB8F00D18034 /* main.m in Sources */,
@@ -298,6 +318,7 @@
 				A65BC6B21C37EB8F00D18034 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
