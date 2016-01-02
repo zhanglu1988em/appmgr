@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @protocol AppViewDelegate <NSObject>
--(void) download:(NSString*) tittle;
+-(void) download:(NSString*) tittle ;
 @end
 
 @class AppMode;

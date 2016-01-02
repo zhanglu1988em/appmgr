@@ -33,7 +33,8 @@
 - (IBAction)download:(UIButton *)sender {
     
     if ([self.delegate respondsToSelector:@selector(download:)]) {
-        [self.delegate download:self.name.text];
+        sender.enabled = NO;
+        [self.delegate download : self.name.text];
     }
     
 }

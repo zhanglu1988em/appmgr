@@ -53,7 +53,7 @@
     }
 }
 
--(void) download:(NSString*) title;
+-(void) download:(NSString*) title
 {
     NSLog(@"%s,%@",__func__,title);
     
@@ -64,6 +64,7 @@
     
     [self.view addSubview:self.promptLbl];
     self.promptLbl.alpha = 0.0;
+
     [UIView animateWithDuration:1.0f animations:^{
         self.promptLbl.alpha = 1.0;
     } completion:^(BOOL finished) {
